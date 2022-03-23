@@ -3,8 +3,11 @@ function sum(a, b) {
 }
 
 // This function serves no porpuse other than showing changes in coverage
-function balls(){
-    console.log('Balls')
+function ballsFunc(text){
+    return 'very big ' + text
 }
 
-module.exports = sum
+module.exports = {
+    sum,
+    ballsFunc
+};
